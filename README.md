@@ -27,6 +27,7 @@ Tree-based algorithms often work quite well on Bag-of-Words as their highly disc
 
 ### RNN Model 
 RNN network is designed : embedding layer + LSTM memory cell + Fully Connected + Sigmoid activation
+![Network](sentiment_network.png)
 
 |Layer(type)         |        Output Shape       |       Param #   |
 |---------------------|------------------| ------------|
