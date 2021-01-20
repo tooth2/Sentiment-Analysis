@@ -19,10 +19,6 @@ IMDB movie review raw data is from html scrapping. Therefore there are HTML tags
 - removal of stop words, and 
 - stemming the remaining words in each document by using nltk.stem.porte.PorterStemmer
 
-### Extracting Bag of Words features
-```python
-   vectorizer = CountVectorizer(max_features=vocabulary_size, preprocessor=lambda x: x, tokenizer=lambda x: x) 
-```
 
 ### Classifier
 Tree-based algorithms often work quite well on Bag-of-Words as their highly discontinuous and sparse nature is nicely matched by the structure of trees
